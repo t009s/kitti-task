@@ -1,0 +1,22 @@
+.header {
+    font-family: Anton;
+    font-size: 100px;
+    color: #eac9e0;
+    line-height: 90px;
+}
+
+.fontManrope {
+    font-family: Manrope;
+}
+
+.cursorPointer {
+    cursor: pointer;
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 800px) {
+    .header {
+        font-size: 75px;
+        line-height: 70px;
+    }
+}
